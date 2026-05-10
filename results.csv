@@ -1,0 +1,294 @@
+C:\Users\zahra\PyCharmMiscProject\.venv\bin\python.exe C:\Users\zahra\PyCharmMiscProject\AW.py 
+
+  Running correctness verification …
+  ✓ All 10 algorithms passed correctness check.
+
+=================================================================
+  Experimental Comparison of Sorting Algorithms
+  Algorithms Course — Python Benchmark
+=================================================================
+  Algorithms   : 10
+  Input sizes  : [100, 500, 1000, 2000, 5000, 10000]
+  Distributions: ['random', 'sorted', 'reverse']
+  Trials/cell  : 5
+  Total cells  : 180
+=================================================================
+
+── Distribution: RANDOM ──────────────────────────────
+  [  0.6%]  Bubble Sort       n=   100  random         0.262 ms
+  [  1.1%]  Selection Sort    n=   100  random         0.141 ms
+  [  1.7%]  Insertion Sort    n=   100  random         0.117 ms
+  [  2.2%]  Merge Sort        n=   100  random         0.235 ms
+  [  2.8%]  Quick Sort        n=   100  random         0.040 ms
+  [  3.3%]  Heap Sort         n=   100  random         0.084 ms
+  [  3.9%]  Shell Sort        n=   100  random         0.067 ms
+  [  4.4%]  Counting Sort     n=   100  random         0.358 ms
+  [  5.0%]  Radix Sort        n=   100  random         0.057 ms
+  [  5.6%]  Tim Sort          n=   100  random         0.005 ms
+  [  6.1%]  Bubble Sort       n=   500  random        15.174 ms
+  [  6.7%]  Selection Sort    n=   500  random         7.178 ms
+  [  7.2%]  Insertion Sort    n=   500  random         5.062 ms
+  [  7.8%]  Merge Sort        n=   500  random         2.256 ms
+  [  8.3%]  Quick Sort        n=   500  random         0.388 ms
+  [  8.9%]  Heap Sort         n=   500  random         0.831 ms
+  [  9.4%]  Shell Sort        n=   500  random         0.975 ms
+  [ 10.0%]  Counting Sort     n=   500  random         2.237 ms
+  [ 10.6%]  Radix Sort        n=   500  random         0.383 ms
+  [ 11.1%]  Tim Sort          n=   500  random         0.026 ms
+  [ 11.7%]  Bubble Sort       n= 1,000  random        69.952 ms
+  [ 12.2%]  Selection Sort    n= 1,000  random        31.217 ms
+  [ 12.8%]  Insertion Sort    n= 1,000  random        24.824 ms
+  [ 13.3%]  Merge Sort        n= 1,000  random         2.664 ms
+  [ 13.9%]  Quick Sort        n= 1,000  random         2.075 ms
+  [ 14.4%]  Heap Sort         n= 1,000  random         3.141 ms
+  [ 15.0%]  Shell Sort        n= 1,000  random        14.039 ms
+  [ 15.6%]  Counting Sort     n= 1,000  random         3.101 ms
+  [ 16.1%]  Radix Sort        n= 1,000  random         1.241 ms
+  [ 16.7%]  Tim Sort          n= 1,000  random         0.087 ms
+  [ 17.2%]  Bubble Sort       n= 2,000  random       300.979 ms
+  [ 17.8%]  Selection Sort    n= 2,000  random       128.386 ms
+  [ 18.3%]  Insertion Sort    n= 2,000  random       129.234 ms
+  [ 18.9%]  Merge Sort        n= 2,000  random         5.702 ms
+  [ 19.4%]  Quick Sort        n= 2,000  random         3.106 ms
+  [ 20.0%]  Heap Sort         n= 2,000  random         5.131 ms
+  [ 20.6%]  Shell Sort        n= 2,000  random         5.565 ms
+  [ 21.1%]  Counting Sort     n= 2,000  random         5.967 ms
+  [ 21.7%]  Radix Sort        n= 2,000  random         1.819 ms
+  [ 22.2%]  Tim Sort          n= 2,000  random         0.166 ms
+  [ 22.8%]  Bubble Sort       n= 5,000  random      2331.066 ms
+  [ 23.3%]  Selection Sort    n= 5,000  random       874.952 ms
+  [ 23.9%]  Insertion Sort    n= 5,000  random       867.997 ms
+  [ 24.4%]  Merge Sort        n= 5,000  random        15.298 ms
+  [ 25.0%]  Quick Sort        n= 5,000  random         9.842 ms
+  [ 25.6%]  Heap Sort         n= 5,000  random        15.893 ms
+  [ 26.1%]  Shell Sort        n= 5,000  random        14.375 ms
+  [ 26.7%]  Counting Sort     n= 5,000  random        20.907 ms
+  [ 27.2%]  Radix Sort        n= 5,000  random         4.765 ms
+  [ 27.8%]  Tim Sort          n= 5,000  random         0.534 ms
+  [ 28.3%]  Bubble Sort       n=10,000  random      8746.995 ms
+  [ 28.9%]  Selection Sort    n=10,000  random      4083.490 ms
+  [ 29.4%]  Insertion Sort    n=10,000  random      3973.022 ms
+  [ 30.0%]  Merge Sort        n=10,000  random        58.764 ms
+  [ 30.6%]  Quick Sort        n=10,000  random        19.741 ms
+  [ 31.1%]  Heap Sort         n=10,000  random        36.989 ms
+  [ 31.7%]  Shell Sort        n=10,000  random        52.747 ms
+  [ 32.2%]  Counting Sort     n=10,000  random        29.358 ms
+  [ 32.8%]  Radix Sort        n=10,000  random        15.717 ms
+  [ 33.3%]  Tim Sort          n=10,000  random         2.612 ms
+── Distribution: SORTED ──────────────────────────────
+  [ 33.9%]  Bubble Sort       n=   100  sorted         0.011 ms
+  [ 34.4%]  Selection Sort    n=   100  sorted         0.308 ms
+  [ 35.0%]  Insertion Sort    n=   100  sorted         0.014 ms
+  [ 35.6%]  Merge Sort        n=   100  sorted         0.264 ms
+  [ 36.1%]  Quick Sort        n=   100  sorted         0.020 ms
+  [ 36.7%]  Heap Sort         n=   100  sorted         0.062 ms
+  [ 37.2%]  Shell Sort        n=   100  sorted         0.023 ms
+  [ 37.8%]  Counting Sort     n=   100  sorted         0.276 ms
+  [ 38.3%]  Radix Sort        n=   100  sorted         0.045 ms
+  [ 38.9%]  Tim Sort          n=   100  sorted         0.001 ms
+  [ 39.4%]  Bubble Sort       n=   500  sorted         0.026 ms
+  [ 40.0%]  Selection Sort    n=   500  sorted        10.779 ms
+  [ 40.6%]  Insertion Sort    n=   500  sorted         0.115 ms
+  [ 41.1%]  Merge Sort        n=   500  sorted         2.355 ms
+  [ 41.7%]  Quick Sort        n=   500  sorted         0.618 ms
+  [ 42.2%]  Heap Sort         n=   500  sorted         0.938 ms
+  [ 42.8%]  Shell Sort        n=   500  sorted         0.232 ms
+  [ 43.3%]  Counting Sort     n=   500  sorted         1.181 ms
+  [ 43.9%]  Radix Sort        n=   500  sorted         0.300 ms
+  [ 44.4%]  Tim Sort          n=   500  sorted         0.003 ms
+  [ 45.0%]  Bubble Sort       n= 1,000  sorted         0.063 ms
+  [ 45.6%]  Selection Sort    n= 1,000  sorted        23.594 ms
+  [ 46.1%]  Insertion Sort    n= 1,000  sorted         0.105 ms
+  [ 46.7%]  Merge Sort        n= 1,000  sorted         1.445 ms
+  [ 47.2%]  Quick Sort        n= 1,000  sorted         0.702 ms
+  [ 47.8%]  Heap Sort         n= 1,000  sorted         1.363 ms
+  [ 48.3%]  Shell Sort        n= 1,000  sorted         0.639 ms
+  [ 48.9%]  Counting Sort     n= 1,000  sorted         2.437 ms
+  [ 49.4%]  Radix Sort        n= 1,000  sorted         0.662 ms
+  [ 50.0%]  Tim Sort          n= 1,000  sorted         0.005 ms
+  [ 50.6%]  Bubble Sort       n= 2,000  sorted         0.144 ms
+  [ 51.1%]  Selection Sort    n= 2,000  sorted       126.460 ms
+  [ 51.7%]  Insertion Sort    n= 2,000  sorted         0.258 ms
+  [ 52.2%]  Merge Sort        n= 2,000  sorted         3.154 ms
+  [ 52.8%]  Quick Sort        n= 2,000  sorted         1.273 ms
+  [ 53.3%]  Heap Sort         n= 2,000  sorted         4.378 ms
+  [ 53.9%]  Shell Sort        n= 2,000  sorted         1.528 ms
+  [ 54.4%]  Counting Sort     n= 2,000  sorted         4.979 ms
+  [ 55.0%]  Radix Sort        n= 2,000  sorted         1.669 ms
+  [ 55.6%]  Tim Sort          n= 2,000  sorted         0.010 ms
+  [ 56.1%]  Bubble Sort       n= 5,000  sorted         0.361 ms
+  [ 56.7%]  Selection Sort    n= 5,000  sorted       865.885 ms
+  [ 57.2%]  Insertion Sort    n= 5,000  sorted         0.649 ms
+  [ 57.8%]  Merge Sort        n= 5,000  sorted        10.216 ms
+  [ 58.3%]  Quick Sort        n= 5,000  sorted         6.737 ms
+  [ 58.9%]  Heap Sort         n= 5,000  sorted        16.188 ms
+  [ 59.4%]  Shell Sort        n= 5,000  sorted         5.000 ms
+  [ 60.0%]  Counting Sort     n= 5,000  sorted        14.582 ms
+  [ 60.6%]  Radix Sort        n= 5,000  sorted         5.827 ms
+  [ 61.1%]  Tim Sort          n= 5,000  sorted         0.023 ms
+  [ 61.7%]  Bubble Sort       n=10,000  sorted         0.782 ms
+  [ 62.2%]  Selection Sort    n=10,000  sorted      3969.744 ms
+  [ 62.8%]  Insertion Sort    n=10,000  sorted         2.851 ms
+  [ 63.3%]  Merge Sort        n=10,000  sorted        42.708 ms
+  [ 63.9%]  Quick Sort        n=10,000  sorted        16.567 ms
+  [ 64.4%]  Heap Sort         n=10,000  sorted        22.394 ms
+  [ 65.0%]  Shell Sort        n=10,000  sorted        12.663 ms
+  [ 65.6%]  Counting Sort     n=10,000  sorted        34.333 ms
+  [ 66.1%]  Radix Sort        n=10,000  sorted        12.883 ms
+  [ 66.7%]  Tim Sort          n=10,000  sorted         0.060 ms
+── Distribution: REVERSE ──────────────────────────────
+  [ 67.2%]  Bubble Sort       n=   100  reverse        0.289 ms
+  [ 67.8%]  Selection Sort    n=   100  reverse        0.114 ms
+  [ 68.3%]  Insertion Sort    n=   100  reverse        0.175 ms
+  [ 68.9%]  Merge Sort        n=   100  reverse        0.131 ms
+  [ 69.4%]  Quick Sort        n=   100  reverse        0.028 ms
+  [ 70.0%]  Heap Sort         n=   100  reverse        0.065 ms
+  [ 70.6%]  Shell Sort        n=   100  reverse        0.039 ms
+  [ 71.1%]  Counting Sort     n=   100  reverse        0.228 ms
+  [ 71.7%]  Radix Sort        n=   100  reverse        0.040 ms
+  [ 72.2%]  Tim Sort          n=   100  reverse        0.001 ms
+  [ 72.8%]  Bubble Sort       n=   500  reverse       19.235 ms
+  [ 73.3%]  Selection Sort    n=   500  reverse       11.957 ms
+  [ 73.9%]  Insertion Sort    n=   500  reverse       14.068 ms
+  [ 74.4%]  Merge Sort        n=   500  reverse        2.013 ms
+  [ 75.0%]  Quick Sort        n=   500  reverse        0.830 ms
+  [ 75.6%]  Heap Sort         n=   500  reverse        1.133 ms
+  [ 76.1%]  Shell Sort        n=   500  reverse        0.797 ms
+  [ 76.7%]  Counting Sort     n=   500  reverse        3.327 ms
+  [ 77.2%]  Radix Sort        n=   500  reverse        0.950 ms
+  [ 77.8%]  Tim Sort          n=   500  reverse        0.008 ms
+  [ 78.3%]  Bubble Sort       n= 1,000  reverse      106.629 ms
+  [ 78.9%]  Selection Sort    n= 1,000  reverse       38.038 ms
+  [ 79.4%]  Insertion Sort    n= 1,000  reverse       34.397 ms
+  [ 80.0%]  Merge Sort        n= 1,000  reverse        2.938 ms
+  [ 80.6%]  Quick Sort        n= 1,000  reverse        0.738 ms
+  [ 81.1%]  Heap Sort         n= 1,000  reverse        1.046 ms
+  [ 81.7%]  Shell Sort        n= 1,000  reverse        1.071 ms
+  [ 82.2%]  Counting Sort     n= 1,000  reverse        2.338 ms
+  [ 82.8%]  Radix Sort        n= 1,000  reverse        0.727 ms
+  [ 83.3%]  Tim Sort          n= 1,000  reverse        0.015 ms
+  [ 83.9%]  Bubble Sort       n= 2,000  reverse      361.959 ms
+  [ 84.4%]  Selection Sort    n= 2,000  reverse      147.158 ms
+  [ 85.0%]  Insertion Sort    n= 2,000  reverse      224.578 ms
+  [ 85.6%]  Merge Sort        n= 2,000  reverse        3.207 ms
+  [ 86.1%]  Quick Sort        n= 2,000  reverse        1.798 ms
+  [ 86.7%]  Heap Sort         n= 2,000  reverse        2.545 ms
+  [ 87.2%]  Shell Sort        n= 2,000  reverse        2.666 ms
+  [ 87.8%]  Counting Sort     n= 2,000  reverse        4.721 ms
+  [ 88.3%]  Radix Sort        n= 2,000  reverse        2.200 ms
+  [ 88.9%]  Tim Sort          n= 2,000  reverse        0.025 ms
+  [ 89.4%]  Bubble Sort       n= 5,000  reverse     2849.049 ms
+  [ 90.0%]  Selection Sort    n= 5,000  reverse      948.281 ms
+  [ 90.6%]  Insertion Sort    n= 5,000  reverse     1889.637 ms
+  [ 91.1%]  Merge Sort        n= 5,000  reverse       20.764 ms
+  [ 91.7%]  Quick Sort        n= 5,000  reverse        4.951 ms
+  [ 92.2%]  Heap Sort         n= 5,000  reverse       11.058 ms
+  [ 92.8%]  Shell Sort        n= 5,000  reverse        9.839 ms
+  [ 93.3%]  Counting Sort     n= 5,000  reverse       12.260 ms
+  [ 93.9%]  Radix Sort        n= 5,000  reverse        7.985 ms
+  [ 94.4%]  Tim Sort          n= 5,000  reverse        0.057 ms
+  [ 95.0%]  Bubble Sort       n=10,000  reverse   343480.350 ms
+  [ 95.6%]  Selection Sort    n=10,000  reverse     6114.818 ms
+  [ 96.1%]  Insertion Sort    n=10,000  reverse    12205.436 ms
+  [ 96.7%]  Merge Sort        n=10,000  reverse       58.670 ms
+  [ 97.2%]  Quick Sort        n=10,000  reverse       26.904 ms
+  [ 97.8%]  Heap Sort         n=10,000  reverse       50.400 ms
+  [ 98.3%]  Shell Sort        n=10,000  reverse       54.124 ms
+  [ 98.9%]  Counting Sort     n=10,000  reverse       66.379 ms
+  [ 99.4%]  Radix Sort        n=10,000  reverse       29.073 ms
+  [100.0%]  Tim Sort          n=10,000  reverse        0.214 ms
+
+  ✓ Results written to 'results.csv'  (180 rows)
+  ✓ Report  written to 'results_report.txt'
+
+
+Figure — RANDOM Input  (n = 10,000, 5-run average)
+────────────────────────────────────────────────────────────────────────
+  Algorithm           Avg (ms)   Relative bar
+────────────────────────────────────────────────────────────────────────
+  Tim Sort                2.61   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Radix Sort             15.72   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Quick Sort             19.74   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Counting Sort          29.36   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Heap Sort              36.99   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Shell Sort             52.75   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Merge Sort             58.76   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Insertion Sort       3973.02   ██████████████████░░░░░░░░░░░░░░░░░░░░░░
+  Selection Sort       4083.49   ███████████████████░░░░░░░░░░░░░░░░░░░░░
+  Bubble Sort          8747.00   ████████████████████████████████████████
+────────────────────────────────────────────────────────────────────────
+  (n = 10,000 — bars scaled to maximum value)
+
+
+Figure — SORTED Input  (n = 10,000, 5-run average)
+────────────────────────────────────────────────────────────────────────
+  Algorithm           Avg (ms)   Relative bar
+────────────────────────────────────────────────────────────────────────
+  Tim Sort                0.06   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Bubble Sort             0.78   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Insertion Sort          2.85   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Shell Sort             12.66   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Radix Sort             12.88   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Quick Sort             16.57   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Heap Sort              22.39   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Counting Sort          34.33   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Merge Sort             42.71   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Selection Sort       3969.74   ████████████████████████████████████████
+────────────────────────────────────────────────────────────────────────
+  (n = 10,000 — bars scaled to maximum value)
+
+
+Figure — REVERSE Input  (n = 10,000, 5-run average)
+────────────────────────────────────────────────────────────────────────
+  Algorithm           Avg (ms)   Relative bar
+────────────────────────────────────────────────────────────────────────
+  Tim Sort                0.21   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Quick Sort             26.90   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Radix Sort             29.07   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Heap Sort              50.40   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Shell Sort             54.12   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Merge Sort             58.67   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Counting Sort          66.38   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Selection Sort       6114.82   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Insertion Sort      12205.44   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Bubble Sort        343480.35   ████████████████████████████████████████
+────────────────────────────────────────────────────────────────────────
+  (n = 10,000 — bars scaled to maximum value)
+
+
+Figure — Growth Table, Random Input (all times in ms)
+────────────────────────────────────────────────────────────────────────
+  Algorithm             n=100      n=500     n=1000     n=2000     n=5000    n=10000
+────────────────────────────────────────────────────────────────────────
+  Bubble Sort           0.262     15.174     69.952    300.979   2331.066   8746.995
+  Selection Sort        0.141      7.178     31.217    128.386    874.952   4083.490
+  Insertion Sort        0.117      5.062     24.824    129.234    867.997   3973.022
+  Merge Sort            0.235      2.256      2.664      5.702     15.298     58.764
+  Quick Sort            0.040      0.388      2.075      3.106      9.842     19.741
+  Heap Sort             0.084      0.831      3.141      5.131     15.893     36.989
+  Shell Sort            0.067      0.975     14.039      5.565     14.375     52.747
+  Counting Sort         0.358      2.237      3.101      5.967     20.907     29.358
+  Radix Sort            0.057      0.383      1.241      1.819      4.765     15.717
+  Tim Sort              0.005      0.026      0.087      0.166      0.534      2.612
+────────────────────────────────────────────────────────────────────────
+
+
+Summary Table — Average Sorting Time (ms) at n = 10,000
+────────────────────────────────────────────────────────────────────────
+  Algorithm             Random      Sorted     Reverse
+────────────────────────────────────────────────────────────────────────
+  Bubble Sort          8747.00        0.78   343480.35
+  Selection Sort       4083.49     3969.74     6114.82
+  Insertion Sort       3973.02        2.85    12205.44
+  Merge Sort             58.76       42.71       58.67
+  Quick Sort             19.74       16.57       26.90
+  Heap Sort              36.99       22.39       50.40
+  Shell Sort             52.75       12.66       54.12
+  Counting Sort          29.36       34.33       66.38
+  Radix Sort             15.72       12.88       29.07
+  Tim Sort                2.61        0.06        0.21
+────────────────────────────────────────────────────────────────────────
+
+  Done.
+
+Process finished with exit code 0
